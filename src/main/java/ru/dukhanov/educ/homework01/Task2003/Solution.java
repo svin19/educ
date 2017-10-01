@@ -1,4 +1,4 @@
-package ru.duchanov.educ.homework01.Task2003;
+package ru.dukhanov.educ.homework01.Task2003;
 
 import java.util.Scanner;
 

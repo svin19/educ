@@ -1,4 +1,4 @@
-package ru.duchanov.educ;
+package ru.dukhanov.educ;
 
 public class Text {
     public static void main(String[] args){
