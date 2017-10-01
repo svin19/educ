@@ -1,4 +1,4 @@
-package ru.dukhanov.educ;
+package ru.svin19.educ;
 
 public class Educ04 {
     public static void main(String[] args) {

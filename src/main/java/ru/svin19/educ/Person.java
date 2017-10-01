@@ -1,4 +1,4 @@
-package ru.dukhanov.educ;
+package ru.svin19.educ;
 
 public class Person {
     private final boolean man;

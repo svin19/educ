@@ -1,4 +1,4 @@
-package ru.dukhanov.educ.homework01.Task2003;
+package ru.svin19.educ.homework01.Task2003;
 
 import java.util.Scanner;
 
@@ -7,8 +7,13 @@ public class Solution {
         Scanner scanner = new Scanner(System.in);
         int count = scanner.nextInt();
         int sum = 0;
-        for (int i = 0; i <count; i++) {
-            sum = sum + (-1)*i%2 + scanner.nextInt();
+        for (int i = 1; i <= count; i++) {
+            int re = scanner.nextInt();
+            if (i % 2 == 1) {
+                sum = sum + re;
+            } else {
+                sum = sum - re;
+            }
         }
         System.out.println(sum);
     }

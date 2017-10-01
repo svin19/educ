@@ -1,4 +1,4 @@
-package ru.dukhanov.educ.homework01.Task2002;
+package ru.svin19.educ.homework01.Task2002;
 
 import java.io.BufferedReader;
 import java.io.IOException;
