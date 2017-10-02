@@ -5,9 +5,16 @@ import java.util.Scanner;
 public class Solution {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        int lenghSm = scanner.nextInt();
-        int lenghFt = (lenghSm - lenghSm%36)/36;
-        int lenghIn = (lenghSm%36)%3
-        System.out.println(lenghFt);
+        int count = scanner.nextInt();
+        int index = 1;
+        int value = 10000;
+        for (int i = 1; i <= count; i++) {
+            int re = scanner.nextInt();
+            if (re < value) {
+                value = re;
+                index = i;
+            }
+        }
+        System.out.println(index);
     }
 }
