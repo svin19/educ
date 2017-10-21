@@ -7,11 +7,11 @@ import static org.junit.Assert.*;
 
 public class StackImplTest {
 
-    @Test
-    public void test (ExpectedException){
-        new StackImpl(0).add(10);
-
-    }
+//    @Test
+//    public void test (ExpectedException ){
+//        new StackImpl(0).add(10);
+//
+//    }
 
 
 }

@@ -4,7 +4,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int x = 10;
         int y = 0;
 
@@ -39,7 +39,8 @@ public class Main {
         // There is "try with resources"
 //        try (FileOutputStream fileOutputStream = new FileOutputStream("File.txt")){
 //    }catch (){}
-    //  в этом случае очистка ресурсов произойдет автоматически
+        //  в этом случае очистка ресурсов произойдет автоматически
         // такое возможно для объектов, которые реализуют интерфейс autoClosable
 
+    }
 }
