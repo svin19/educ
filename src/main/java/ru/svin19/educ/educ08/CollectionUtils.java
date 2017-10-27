@@ -15,7 +15,7 @@ public class CollectionUtils {
     }
 
     public static<T> List<T> joinWild(List<? extends T> list, List<? extends T> list2) {
-        List<T> result = new ArrayList<>();
+        List<T> result = new ArrayList<>();//
         result.addAll(list);
         result.addAll(list2);
         return result;
