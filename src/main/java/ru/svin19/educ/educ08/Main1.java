@@ -16,7 +16,7 @@ public class Main1 {
         List<Integer> listI2= new ArrayList<>(asList(12,34,56,43,23));
 
         List<String> listS3=CollectionUtils.join(listS1,listS2);
-        List<Object> listI3=CollectionUtils.joinWild(listI1,listI2);
+        List<Integer> listI3=CollectionUtils.joinWild(listI1,listI2);
         for (Integer s : listI3
              ) {
             System.out.println(s);

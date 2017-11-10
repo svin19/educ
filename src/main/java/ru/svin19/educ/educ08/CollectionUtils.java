@@ -23,7 +23,7 @@ public class CollectionUtils {
     // возможно List<? super T> list - это наоборот
 
 
-    public static List<E> join(List<E> list, List<E> list2) {
+    public static<E> List<E> join(List<E> list, List<E> list2) {
         list.addAll(list2);
         return list;
     }
