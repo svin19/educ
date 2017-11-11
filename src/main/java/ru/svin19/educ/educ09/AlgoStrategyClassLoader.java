@@ -18,14 +18,13 @@ public class AlgoStrategyClassLoader extends ClassLoader {
 
     @Override
     protected Class<?> findClass(String name) throws ClassNotFoundException {
-        byte[] v = new byte[0] ;
 
+        byte[] v = new byte[0] ;
         try {
             v = Files.readAllBytes(new File(nameRoot+name.replace('.','/')+".class").toPath());
         } catch (IOException e) {
             e.printStackTrace();
         }
         return defineClass(name, v,0,v.length);
-
     }
 }
