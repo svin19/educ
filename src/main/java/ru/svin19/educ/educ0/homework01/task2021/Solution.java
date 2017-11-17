@@ -1,6 +1,5 @@
-package ru.svin19.educ.homework01.task2021;
+package ru.svin19.educ.educ0.homework01.task2021;
 
-import java.util.List;
 import java.util.Scanner;
 
 public class Solution {
